@@ -1,0 +1,463 @@
+body {
+	background: url(../img/bg.jpg);
+	padding: 0;
+	margin: 0px auto auto auto;
+	color: #000;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 14px;
+}
+
+p {
+	padding: 0px;
+	text-align: justify;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+#main_container {
+	width: 950px;
+	height: auto;
+	margin: auto;
+	padding: 0px;
+}
+
+#header {
+	width: 950px;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/header.png) no-repeat center top;
+}
+
+.title {
+	width: auto;
+	padding: 2px 0 10px 0;
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*-----menu tab-----*/
+.menu {
+	width: 950px;
+	height: 42px;
+	margin: 0px; 
+	background: url(../img/menu_bg.gif) no-repeat left;
+	text-decoration: none;
+
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0 0 0 80px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.menu ul li {
+	display: inline;
+	text-decoration: none;
+}
+
+.menu ul li a {
+	float: left;
+	height: 42px;
+	border: none;
+	padding: 0 15px 0 15px;
+	text-decoration: none;
+	color: #fff;
+	line-height: 42px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.menu ul li.selected a {
+	float: left;
+	height: 42px;
+	border: none;
+	padding: 0 15px 0 15px;
+	text-decoration: none;
+	color: rgb(202, 255, 202);
+	line-height: 42px;
+	font-size: 16px;
+	background: url(../img/menu_bullet.gif) no-repeat bottom center;
+}
+
+.menu ul li a:hover {
+	background: url(../img/menu_bullet.gif) no-repeat bottom center;
+}
+
+/*-----center_content-----*/
+.center_content {
+	width: 950px;
+	height: auto;
+	clear: both;
+	padding: 10px 0 20px 0;
+	background-color: #e9e5e2;
+	text-align: center;
+}
+
+.center_content h3 {
+	margin: 0 0 5px 50px;
+	text-align: left;
+}
+
+.center_content ol {
+	text-align: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.center_content ul {
+	text-align: left;
+	margin: -10px 25px -10px 35px;
+}
+
+#pr_6 {
+	text-align: left;
+	margin: -10px 0 -15px 50px;
+}
+
+/*-----Головна-----*/
+.maintext {
+	text-align: left;
+	margin: 0 20px 0 50px;
+}
+
+.maintext ul {
+	margin: 14px 0 14px -15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+/*-----Практичні роботи-----*/
+.mainlist {
+	margin: 5px 50px 5px 50px;
+	width: 850px;
+	height: 50px;
+	background-color: #99F;
+	border-radius: 10px;
+}
+
+.mainlist p {
+	padding: 2px 0px 2px 15px;
+	font-size: 14px;
+}
+
+.mainlist a {
+	text-decoration: none;
+}
+
+.mainlist a:active {
+	color: #000000;
+}
+
+.mainlist a:link {
+	color: #000000;
+}
+
+.mainlist a:hover {
+	color: #000000;
+}
+
+.mainlist a:visited {
+	color: #000000;
+}
+
+.leftlist {
+	float: left;
+	width: 424px;
+	height: 25px;
+	background-color: #DED8D3;
+	border-top: 1px solid #8F8D8C;
+	border-right: 1px solid #8F8D8C;
+	border-bottom-left-radius: 10px;
+}
+
+.rightlist {
+	float: right;
+	width: 425px;
+	height: 25px;
+	background-color: #DED8D3;
+	borfer-left: 1px solid #8F8D8C;
+	border-top: 1px solid #8F8D8C;
+	border-bottom-right-radius: 10px;
+}
+
+/*-----Самостійні роботи-----*/
+table {
+	width: 600px;
+	font-size: 14px;
+	border-collapse: collapse;
+	margin-left: 175px;
+	margin-bottom: 50px;
+}
+
+table,
+td,
+th {
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+/*-----Теоритичні відомості-----*/
+.teoriya p {
+	margin: 0 50px;
+}
+
+.teoriya span {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+/*-----Кнопа вверх/назад-----*/
+#back-top,
+#back {
+	position: fixed;
+}
+
+#back-top {
+	bottom: 70px;
+	margin-left: -60px;
+}
+
+#back {
+	bottom: 20px;
+	margin-left: -60px;
+}
+
+#back-top a,
+#back a {
+	width: 40px;
+	display: block;
+	color: #bbb;
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+#back-top a:hover,
+#back a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span,
+#back span {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-bottom: 7px;
+	/* rounded corners */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+#back-top span {
+	background: #ddd url(../img/back-top.png) no-repeat center center;
+}
+
+#back span {
+	background: #ddd url(../img/back.png) no-repeat center center;
+}
+
+#back-top a:hover span,
+#back a:hover span {
+	background-color: #777;
+}
+
+/*-----footer-----*/
+#footer {
+	width: 950px;
+	height: 50px;
+	clear: both;
+	color: #837d7b;
+}
+
+.left_footer {
+	float: left;
+	padding: 20px 0 0 0;
+}
+
+.right_footer {
+	float: right;
+	padding: 15px 5px 0 0;
+}
+
+/*-----fon teorii-----*/
+.mainlist1 {
+	margin: 5px 50px 5px 50px;
+	width: 850px;
+	height: 50px;
+	background-color: #6C0;
+	border-radius: 5px;
+}
+
+.mainlist p {
+	padding: 2px 0px 2px 15px;
+	font-size: 14px;
+}
+
+.mainlist a {
+	text-decoration: none;
+}
+
+.mainlist a:active {
+	color: #000000;
+}
+
+.mainlist a:link {
+	color: #000000;
+}
+
+.mainlist a:hover {
+	color: #000000;
+}
+
+.mainlist a:visited {
+	color: #000000;
+}
+
+.mainlist2 {
+	margin: 5px 50px 5px 50px;
+	width: 850px;
+	height: 50px;
+	background-color: #D50000;
+	border-radius: 5px;
+}
+
+.mainlist p {
+	padding: 2px 0px 2px 15px;
+	font-size: 14px;
+}
+
+.mainlist a {
+	text-decoration: none;
+}
+
+.mainlist a:active {
+	color: #000000;
+}
+
+.mainlist a:link {
+	color: #000000;
+}
+
+.mainlist a:hover {
+	color: #000000;
+}
+
+.mainlist a:visited {
+	color: #000000;
+}
+
+.mainlist3 {
+	margin: 5px 50px 5px 50px;
+	width: 850px;
+	height: 50px;
+	background-color: #3FF;
+	border-radius: 5px;
+}
+
+.mainlist p {
+	padding: 2px 0px 2px 15px;
+	font-size: 14px;
+}
+
+.mainlist a {
+	text-decoration: none;
+}
+
+.mainlist a:active {
+	color: #000000;
+}
+
+.mainlist a:link {
+	color: #000000;
+}
+
+.mainlist a:hover {
+	color: #000000;
+}
+
+.mainlist a:visited {
+	color: #000000;
+}
+
+.mainlist4 {
+	margin: 5px 50px 5px 50px;
+	width: 850px;
+	height: 50px;
+	background-color: #F60;
+	border-radius: 5px;
+}
+
+.mainlist p {
+	padding: 2px 0px 2px 15px;
+	font-size: 14px;
+}
+
+.mainlist a {
+	text-decoration: none;
+}
+
+.mainlist a:active {
+	color: #000000;
+}
+
+.mainlist a:link {
+	color: #000000;
+}
+
+.mainlist a:hover {
+	color: #000000;
+}
+
+.mainlist a:visited {
+	color: #000000;
+}
+
+.mainlist5 {
+	margin: 5px 50px 5px 50px;
+	width: 850px;
+	height: 50px;
+	background-color: #09F;
+	border-radius: 5px;
+}
+
+.mainlist p {
+	padding: 2px 0px 2px 15px;
+	font-size: 14px;
+}
+
+.mainlist a {
+	text-decoration: none;
+}
+
+.mainlist a:active {
+	color: #000000;
+}
+
+.mainlist a:link {
+	color: #000000;
+}
+
+.mainlist a:hover {
+	color: #000000;
+}
+
+.mainlist a:visited {
+	color: #000000;
+}
